@@ -877,7 +877,7 @@ ul p {
     }
 
     .navsearch {
-        width: 22rem;
+        width: 19rem;
         height: 2rem;
     }
 
@@ -895,7 +895,7 @@ ul p {
 
     .searchicon {
         width: 2rem;
-        height: 2.015rem;
+        height: 2rem;
         font-size: 0.6rem;
         border-top-right-radius: 0.2rem;
         border-bottom-right-radius: 0.2rem;
