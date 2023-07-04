@@ -1,0 +1,1070 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    background-color: #141c24;
+    height: 3.75rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navlogo {
+    height: 3.75rem;
+    width: 7.125rem;
+}
+
+.logo1 {
+    background-image: url("amazonlogo.png");
+    background-size: cover;
+    width: 100%;
+    height: 3.125rem;
+    box-sizing: border-box;
+}
+
+.loc1 {
+    font-size: 0.9375rem;
+    margin-left: 0.9375rem;
+    color: #CCCCCC;
+}
+
+.loc2 {
+    font-size: 1.0625rem;
+    font-weight: 700;
+    margin-left: 0.2125rem;
+}
+
+
+.locicon {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    font-size: 0.75rem;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.fa-caret-down {
+    color: #A4ACB4;
+}
+
+.nav-third {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-third i {
+    font-size: 1.875rem;
+}
+
+.flagimg {
+    width: 1.25rem;
+    height: 1.3125rem;
+    margin: 0px 0.25rem 0.0625rem 0px;
+    position: relative;
+    top: 0.35625rem;
+}
+
+.cart {
+    margin-left: 2.2rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    position: relative;
+    bottom: 0.3rem;
+}
+
+i.fa-cart-shopping {
+    position: relative;
+    top: 0.6rem;
+}
+
+.panel {
+    background-color: #242C3C;
+    height: 2.4375rem;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.options p {
+    display: inline;
+    margin-left: 0.9375rem;
+}
+
+.options {
+    width: 93%;
+    font-size: 0.85rem;
+}
+
+.fa-bars {
+    margin-right: 0.15625rem;
+}
+
+.hero {
+    background-image: url("hero.jpg");
+    background-size: cover;
+    height: 20rem;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+a {
+    color: #2c889a;
+}
+
+a:hover {
+    color: #C6571F;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.heromessage {
+    background-color: #F4F4F4;
+    color: #273251;
+    font-size: 0.85rem;
+    width: 97%;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5625rem;
+}
+
+p {
+    box-sizing: border-box;
+}
+
+.border {
+    border: 0.125rem solid transparent;
+}
+
+.border:hover {
+    border: 0.0625rem solid white;
+    border-radius: 0.15625rem;
+    cursor: pointer;
+    padding: 0.3125rem;
+    margin-top: 0.25rem;
+}
+
+.navsearch {
+    display: flex;
+    color: #141c24;
+    width: 56.25rem;
+    height: 2.5rem;
+    border-radius: 0.25rem;
+    justify-content: space-evenly;
+    border: 0.1875rem solid transparent;
+}
+
+.navsearch:hover {
+    border: 0.1875rem solid #ffbc6c;
+    border-radius: 0.4375rem;
+}
+
+
+.search {
+    border-top-left-radius: 0.3125rem;
+    border-bottom-left-radius: 0.3125rem;
+    background-color: #F3F3F3;
+    width: 2.9375rem;
+    padding: 0px 0.1875rem;
+    border: 0.00625rem solid #F3F3F3;
+    color: #575757;
+}
+
+.search:hover {
+    background-color: #dcdcdc;
+    color: #141c24;
+    cursor: pointer;
+}
+
+.searchinput {
+    width: 100%;
+    border: 0.00625rem solid #F3F3F3;
+    font-size: 0.93rem;
+    padding: 0.4375rem;
+    border: 0.00667rem solid #ccc9c9;
+}
+
+.searchicon {
+    width: 2.8125rem;
+    height: 2.54rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: #ffbc6c;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.shopsection {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e4e4e4;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 24.375rem;
+    width: 23.5%;
+    background-color: white;
+    padding: 1.25rem 0px 0.9375rem;
+    margin-top: 1.2rem;
+}
+
+.box a {
+    font-size: 0.8125rem;
+}
+
+h2 {
+    font-size: 1.3125rem;
+}
+
+.image6 {
+    height: 18.98125rem;
+    background-size: cover;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.content {
+    margin-left: 0.9375rem;
+    margin-right: 0.9375rem;
+}
+
+.imagecontainer1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.image7 {
+    height: 7.1875rem;
+    width: 47%;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: scale(1.2);
+    margin-top: 1.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.imagecontainer2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    gap: 0px;
+    position: relative;
+    left: 0.4375rem;
+}
+
+.image8 {
+    height: 8.125rem;
+    width: 92%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 0.8rem;
+}
+
+.types1 {
+    font-size: 0.62rem;
+    position: relative;
+    top: 6.5rem;
+    left: 0.8125rem;
+    color: #0F1111;
+}
+
+.types2 {
+    font-size: 0.75rem;
+    position: relative;
+    top: 6.3rem;
+    right: 0.0125rem;
+    color: #0F1111;
+}
+
+.shop1 {
+    position: relative;
+    top: 0.625rem;
+}
+
+.shop2 {
+    position: relative;
+    top: 3.4375rem;
+}
+
+.shop3 {
+    position: relative;
+    top: 1.875rem;
+}
+
+.shop4 {
+    position: relative;
+    top: 3.125rem;
+}
+
+.shop5 {
+    position: relative;
+    top: 0.625rem;
+}
+
+.shop6 {
+    position: relative;
+    top: 0.625rem;
+}
+
+.shop7 {
+    position: relative;
+    top: 0.5rem;
+}
+
+.div1 {
+    background-color: white;
+    width: 18.75rem;
+    height: 9.375rem;
+}
+
+.div2 {
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/October/Fuji_D2_45M_en_US_1x._CB418309979_.jpg");
+    width: 18.75rem;
+    height: 15.625rem;
+}
+
+.box4 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-top: 1.2rem;
+    margin-left: 3.5rem;
+    width: 18.75rem;
+    position: relative;
+    right: 2rem;
+}
+
+.btn {
+    width: 17.5rem;
+    height: 1.875rem;
+    background-color: #ffdc14;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.btn:hover {
+    background-color: #f4cc04;
+    cursor: pointer;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.heading2 {
+
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+footer {
+    margin-top: 0.9375rem;
+}
+
+.footersec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #38445c;
+    height: 3.0625rem;
+    color: white;
+    font-size: 0.8125rem;
+    cursor: pointer;
+}
+
+.footersec1:hover {
+    background-color: #50546c;
+}
+
+.footersec2 {
+    height: 23.127rem;
+    background-color: #282c3c;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 3.125rem;
+}
+
+ul a {
+    display: block;
+    color: white;
+    line-height: 1.8;
+    font-size: 0.875rem;
+    width: 10rem;
+}
+
+ul a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+ul p {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.625rem;
+}
+
+.footersec3 {
+    background-color: #282c3c;
+    border-top: 1.5px solid #3c4454;
+    height: 6.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo2 {
+    background-image: url("amazonlogo.png");
+    background-size: cover;
+    height: 3.125rem;
+    width: 6.25rem;
+}
+
+.footersec4 {
+    background-color: #141c24;
+    height: 4.875rem;
+    color: white;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.footersec4 a {
+    color: white;
+}
+
+.lastsection {
+    padding-top: 1.5625rem;
+}
+
+.copyright {
+    padding-top: 0.3125rem;
+}
+
+.lastsection a {
+    padding-right: 0.5rem;
+
+}
+
+@media (min-width: 319px) and (max-width: 480px) {
+    .logo1 {
+        width: 3.5rem;
+        height: 2rem;
+    }
+
+    .navbar {
+        height: 2rem;
+    }
+
+    .navlogo {
+        height: 2.75rem;
+        width: 3.125rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .loc1 {
+        font-size: 0.3rem;
+        margin-left: 0.38rem;
+    }
+
+    .loc2 {
+        font-size: 0.35rem;
+        font-weight: 700;
+        margin-left: 0.1rem;
+    }
+
+    .locicon {
+        font-size: 0.4rem;
+    }
+
+    span {
+        font-size: 0.3rem;
+    }
+
+    .nav-second {
+        width: 100%;
+        font-size: 0.35rem;
+        font-weight: 700;
+    }
+
+    .cart {
+        display: none;
+    }
+
+    .navreturn {
+        position: relative;
+        bottom: 0.2rem;
+    }
+
+    i.fa-cart-shopping.hello {
+        font-size: 0.9rem;
+        position: relative;
+        right: 0.29rem;
+        margin-bottom: 1.12rem;
+
+    }
+
+    .flagimg {
+        width: 0.52rem;
+        height: 0.5rem;
+        margin: 0px 0.12rem 0.2rem 0px;
+    }
+
+    .panel {
+        height: 1.2rem;
+    }
+
+    .options p {
+        margin-left: 0.1rem;
+    }
+
+    .options {
+        font-size: 0.36rem;
+    }
+
+    .fa-bars {
+        margin-right: 0.1rem;
+        margin-left: 0.1rem;
+    }
+
+    .hero {
+        background-image: url("hero.jpg");
+        background-size: cover;
+        height: 7rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .heromessage {
+        font-size: 0.35rem;
+        width: 90%;
+        height: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .navsearch {
+        width: 11rem;
+        height: 1.25rem;
+    }
+
+    .search {
+        border-top-left-radius: 0.1rem;
+        border-bottom-left-radius: 0.1rem;
+        width: 2.1rem;
+        font-size: 0.4rem;
+    }
+
+    .searchinput {
+        width: 100%;
+        font-size: 0.5rem;
+        padding: 0.4375rem;
+    }
+
+    .searchicon {
+        width: 1.8rem;
+        height: 1.25rem;
+        font-size: 0.6rem;
+        border-top-right-radius: 0.1rem;
+        border-bottom-right-radius: 0.1rem;
+    }
+
+    .signin {
+        position: relative;
+        bottom: 0.2rem;
+    }
+
+    .shopsection {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #e4e4e4;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        height: 9.5rem;
+        width: 30.5%;
+    }
+
+    .box a {
+        font-size: 0.8125rem;
+    }
+
+    h2 {
+        font-size: 0.5rem;
+        font-weight: 700;
+    }
+
+    .image6 {
+        height: 8rem;
+        width: 100px;
+        margin-top: 0.8rem;
+        margin-bottom: 0.8rem;
+        position: relative;
+        right: 0.3rem;
+    }
+
+    .image7 {
+        height: 7.1875rem;
+        width: 32%;
+        margin-top: 1.5rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .image7i {
+        height: 5rem;
+        width: 32%;
+        margin-top: 0.8rem;
+        position: relative;
+        bottom: 7rem;
+        left: 0.3rem;
+    }
+
+    .imagecontainer2 {
+        height: 9rem;
+        width: 100%;
+        gap: 0.5rem;
+    }
+
+    .image8 {
+        height: 10rem;
+        width: 100%;
+        position: relative;
+        right: 0.4rem;
+    }
+
+    .image8i {
+        height: 5rem;
+        width: 3.125rem;
+        margin-top: 0.8rem;
+        position: relative;
+        right: 0.4rem;
+        bottom: 7rem;
+
+    }
+
+    .box6 {
+        display: none;
+    }
+
+    .types1 {
+        font-size: 0.3rem;
+        position: relative;
+        left: 0.43rem;
+        top: 1.5rem;
+    }
+
+    .types2 {
+        font-size: 0.3rem;
+        position: relative;
+        left: 0.43rem;
+        top: 2.2rem;
+    }
+
+    .box p a {
+        font-size: 0.5rem;
+    }
+
+    .shopi {
+
+        position: relative;
+        bottom: 10.5rem;
+    }
+
+    .shopii {
+
+        position: absolute;
+        top: 17.8rem;
+
+
+    }
+
+    .shopiii {
+
+        position: relative;
+        bottom: 3.3rem;
+    }
+
+    .shopiv {
+
+        position: relative;
+        bottom: 3.45rem;
+    }
+
+    .shopv {
+
+        position: relative;
+        bottom: 1.5rem;
+    }
+
+    .shopvi {
+
+        position: relative;
+        bottom: 1.5rem;
+    }
+
+    .div1 {
+        display: none;
+    }
+
+    .div2 {
+        display: none;
+    }
+
+    .footersec1 {
+        font-size: 0.7rem;
+    }
+
+    .footersec1:hover {
+        background-color: #50546c;
+    }
+
+    ul a {
+        font-size: 0.5rem;
+        width: 100%;
+        position: relative;
+        right: 1rem;
+    }
+
+    ul p {
+        font-size: 0.7rem;
+        position: relative;
+        right: 1rem;
+    }
+
+    .logo2 {
+        height: 2.125rem;
+        width: 5.25rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+    .logo1 {
+        width: 6.4rem;
+        height: 4rem;
+    }
+
+    .navbar {
+        height: 100%;
+        width: 100%;
+    }
+
+    .navlogo {
+        height: 2.75rem;
+        width: 6.5rem;
+        display: flex;
+        align-items: center;
+        position: relative;
+        top: 0.3rem;
+    }
+
+    .loc1 {
+        font-size: 0.6rem;
+        margin-left: 0.75rem;
+    }
+
+    .loc2 {
+        font-size: 0.75rem;
+        font-weight: 700;
+        margin-left: 0.2rem;
+    }
+
+    .locicon {
+        font-size: 0.8rem;
+    }
+
+    span {
+        font-size: 0.6rem;
+    }
+
+    .nav-second {
+        width: 100%;
+        font-size: 0.75rem;
+        font-weight: 700;
+    }
+
+    .cart {
+        display: none;
+    }
+
+    .navreturn {
+        position: relative;
+        bottom: 0.2rem;
+    }
+
+    i.fa-cart-shopping {
+        font-size: 1.8rem;
+        position: relative;
+        right: 0.29rem;
+        margin-bottom: 1.12rem;
+
+    }
+
+    .flagimg {
+        width: 1rem;
+        height: 1rem;
+        margin: 0px 0.18rem 0.2rem 0px;
+        position: relative;
+        top: 0.45rem;
+    }
+
+    .panel {
+        height: 2.2rem;
+    }
+
+    .options p {
+        margin-left: 0.1rem;
+    }
+
+    .options {
+        font-size: 0.7rem;
+    }
+
+    .fa-bars {
+        margin-right: 0.1rem;
+        margin-left: 0.1rem;
+    }
+
+    .hero {
+        background-image: url("hero.jpg");
+        background-size: cover;
+        height: 14rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .heromessage {
+        font-size: 0.7rem;
+        width: 96%;
+        height: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .navsearch {
+        width: 22rem;
+        height: 2rem;
+    }
+
+    .search {
+        border-top-left-radius: 0.2rem;
+        border-bottom-left-radius: 0.2rem;
+        font-size: 0.7rem;
+    }
+
+    .searchinput {
+        width: 100%;
+        font-size: 0.7rem;
+        padding: 0.4375rem;
+    }
+
+    .searchicon {
+        width: 2rem;
+        height: 2.015rem;
+        font-size: 0.6rem;
+        border-top-right-radius: 0.2rem;
+        border-bottom-right-radius: 0.2rem;
+    }
+
+    .signin {
+        position: relative;
+        bottom: 0.2rem;
+    }
+
+    .shopsection {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #e4e4e4;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        height: 17rem;
+        width: 31.5%;
+    }
+
+    .box a {
+        font-size: 0.8125rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .image6 {
+        height: 14rem;
+        width: 14.0625rem;
+        margin-top: 0.8rem;
+        margin-bottom: 0.8rem;
+        position: relative;
+        right: 0.3rem;
+    }
+
+    .image7 {
+        height: 7.1875rem;
+        width: 32%;
+        margin-top: 1.5rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .image7i {
+        height: 5rem;
+        width: 38%;
+        margin-top: 0.8rem;
+        position: relative;
+        bottom: 2rem;
+        left: 0.3rem;
+    }
+
+    .imagecontainer2 {
+        height: 9rem;
+        width: 100%;
+        gap: 0.5rem;
+    }
+
+    .image8 {
+        height: 10rem;
+        width: 100%;
+        position: relative;
+        right: 0.4rem;
+    }
+
+    .image8i {
+        height: 5rem;
+        width: 100%;
+        margin-top: 0.8rem;
+        position: relative;
+        right: 0.4rem;
+        bottom: 4.8rem;
+
+    }
+
+    .box4,
+    .box6 {
+        display: none;
+    }
+
+    .types1 {
+        font-size: 0.55rem;
+        position: relative;
+        left: 0.43rem;
+        top: 3.5rem;
+    }
+
+    .types2 {
+        font-size: 0.6rem;
+        position: relative;
+        left: 0.43rem;
+        top: 5rem;
+    }
+
+    .box p a {
+        font-size: 0.7rem;
+    }
+
+    .shopi {
+
+        position: relative;
+        bottom: 3.8rem;
+    }
+
+    .shopii {
+
+        position: relative;
+        top: 2.3rem;
+    }
+
+    .shopiii {
+
+        position: relative;
+        top: 2.63rem;
+    }
+
+    .shopiv {
+
+        position: relative;
+        top: 3rem;
+    }
+
+    .shopv {
+
+        position: relative;
+        bottom: 1rem;
+    }
+
+    .shopvi {
+
+        position: relative;
+        bottom: 1rem;
+    }
+
+    .div1 {
+        display: none;
+    }
+
+    .div2 {
+        display: none;
+    }
+
+    .footersec1 {
+        font-size: 0.7rem;
+    }
+
+    .footersec1:hover {
+        background-color: #50546c;
+    }
+
+    ul a {
+        font-size: 0.7rem;
+        width: 95%;
+        position: relative;
+        right: 1rem;
+    }
+
+    ul p {
+        font-size: 0.8rem;
+        position: relative;
+        right: 1rem;
+    }
+
+    .logo2 {
+        height: 2.125rem;
+        width: 5.25rem;
+    }
+}
