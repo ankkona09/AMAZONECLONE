@@ -111,15 +111,41 @@ i.fa-cart-shopping {
 }
 
 .hero {
-    background-image: url("hero.jpg");
+    height: 336px;
     background-size: cover;
-    height: 20rem;
     max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+
+
 }
 
+.slides {
+    width: 100%;
+    height: 21rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    width: 100%;
+    position: absolute;
+}
+
+/* CSS for previous and next buttons */
+.prev-btn {
+    position: absolute;
+    left: 2rem;
+    top: 15rem;
+    cursor: pointer;
+    /* Add additional styles for positioning the buttons as needed */
+}
+
+.next-btn {
+    position: absolute;
+    right: 2rem;
+    top: 15rem;
+    cursor: pointer;
+    /* Add additional styles for positioning the buttons as needed */
+}
 
 a {
     color: #2c889a;
@@ -135,12 +161,15 @@ a:hover {
     background-color: #F4F4F4;
     color: #273251;
     font-size: 0.85rem;
-    width: 97%;
+    width: 95.8%;
     height: 2.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 1.5625rem;
+    position: relative;
+    bottom: 3.5rem;
+    left: 1rem;
 }
 
 p {
@@ -162,7 +191,7 @@ p {
 .navsearch {
     display: flex;
     color: #141c24;
-    width: 56.25rem;
+    width: 45rem;
     height: 2.5rem;
     border-radius: 0.25rem;
     justify-content: space-evenly;
@@ -437,6 +466,11 @@ ul p {
     margin-bottom: 0.625rem;
 }
 
+.gototopsec a {
+    text-decoration: none;
+    color: white;
+}
+
 .footersec3 {
     background-color: #282c3c;
     border-top: 1.5px solid #3c4454;
@@ -561,20 +595,49 @@ ul p {
     }
 
     .hero {
-        background-image: url("hero.jpg");
-        background-size: cover;
-        height: 7rem;
+        height: 160px;
+    }
+
+    .slides {
         width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
+        height: 180px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .slide {
+        width: 100%;
+        position: absolute;
+        height: 160px;
+    }
+
+    /* CSS for previous and next buttons */
+    .prev-btn {
+        font-size: 0.65rem;
+        position: absolute;
+        left: 1rem;
+        top: 7rem;
+        cursor: pointer;
+        /* Add additional styles for positioning the buttons as needed */
+    }
+
+    .next-btn {
+        font-size: 0.65rem;
+        position: absolute;
+        right: 1rem;
+        top: 7rem;
+        cursor: pointer;
+        /* Add additional styles for positioning the buttons as needed */
     }
 
     .heromessage {
         font-size: 0.35rem;
-        width: 90%;
+        width: 95%;
         height: 1.2rem;
         margin-bottom: 0.5rem;
+        position: relative;
+        bottom: 3.5rem;
+        left: 0.55rem;
     }
 
     .navsearch {
@@ -708,7 +771,7 @@ ul p {
     .shopii {
 
         position: absolute;
-        top: 17.8rem;
+        top: 20.8rem;
 
 
     }
@@ -772,7 +835,330 @@ ul p {
     }
 }
 
-@media (min-width: 481px) and (max-width: 1200px) {
+@media (min-width: 481px) and (max-width: 735px) {
+    .logo1 {
+        width: 3.5rem;
+        height: 2rem;
+    }
+
+    .navbar {
+        height: 2rem;
+    }
+
+    .navlogo {
+        height: 2.75rem;
+        width: 3.125rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .loc1 {
+        font-size: 0.3rem;
+        margin-left: 0.38rem;
+    }
+
+    .loc2 {
+        font-size: 0.35rem;
+        font-weight: 700;
+        margin-left: 0.1rem;
+    }
+
+    .locicon {
+        font-size: 0.4rem;
+    }
+
+    span {
+        font-size: 0.3rem;
+    }
+
+    .nav-second {
+        width: 100%;
+        font-size: 0.3rem;
+        font-weight: 700;
+    }
+
+    .cart {
+        display: none;
+    }
+
+    .navreturn {
+        position: relative;
+        bottom: 0.2rem;
+    }
+
+    i.fa-cart-shopping.hello {
+        font-size: 0.9rem;
+        position: relative;
+        right: 0.29rem;
+        margin-bottom: 1.12rem;
+
+    }
+
+    .flagimg {
+        width: 0.52rem;
+        height: 0.5rem;
+        margin: 0px 0.12rem 0.2rem 0px;
+    }
+
+    .panel {
+        height: 1.2rem;
+    }
+
+    .options p {
+        margin-left: 0.1rem;
+    }
+
+    .options {
+        font-size: 0.36rem;
+    }
+
+    .fa-bars {
+        margin-right: 0.1rem;
+        margin-left: 0.1rem;
+    }
+
+    .hero {
+        height: 160px;
+    }
+
+    .slides {
+        width: 100%;
+        height: 18.75rem;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .slide {
+        width: 100%;
+        position: absolute;
+    }
+
+    /* CSS for previous and next buttons */
+    .prev-btn {
+        font-size: 0.8rem;
+        position: absolute;
+        left: 2rem;
+        top: 9.5rem;
+        cursor: pointer;
+        /* Add additional styles for positioning the buttons as needed */
+    }
+
+    .next-btn {
+        font-size: 0.8rem;
+        position: absolute;
+        right: 2rem;
+        top: 9.5rem;
+        cursor: pointer;
+        /* Add additional styles for positioning the buttons as needed */
+    }
+
+    .hero {
+        height: 16rem;
+    }
+
+    .heromessage {
+        font-size: 0.5rem;
+        width: 93%;
+        height: 1.8rem;
+        margin-bottom: 0.5rem;
+        position: relative;
+        bottom: 5rem;
+    }
+
+    .navsearch {
+        width: 25rem;
+        height: 1.3rem;
+    }
+
+    .search {
+        border-top-left-radius: 0.2rem;
+        border-bottom-left-radius: 0.2rem;
+        font-size: 0.7rem;
+    }
+
+    .searchinput {
+        width: 100%;
+        font-size: 0.7rem;
+        padding: 0.4375rem;
+    }
+
+    .searchicon {
+        width: 2rem;
+        height: 1.3rem;
+        font-size: 0.6rem;
+        border-top-right-radius: 0.2rem;
+        border-bottom-right-radius: 0.2rem;
+    }
+
+    .signin {
+        position: relative;
+        bottom: 0.2rem;
+    }
+
+    .shopsection {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #e4e4e4;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        height: 17rem;
+        width: 31.5%;
+    }
+
+    .box a {
+        font-size: 0.8125rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .image6 {
+        height: 10rem;
+        width: 100%;
+        margin-top: 0.8rem;
+        margin-bottom: 0.8rem;
+        position: relative;
+        right: 0.3rem;
+    }
+
+    .image7 {
+        height: 7.1875rem;
+        width: 32%;
+        margin-top: 1.5rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .image7i {
+        height: 5rem;
+        width: 38%;
+        margin-top: 0.8rem;
+        position: relative;
+        bottom: 2rem;
+        left: 0.3rem;
+    }
+
+    .imagecontainer2 {
+        height: 9rem;
+        width: 100%;
+        gap: 0.5rem;
+    }
+
+    .image8 {
+        height: 10rem;
+        width: 100%;
+        position: relative;
+        right: 0.4rem;
+    }
+
+    .image8i {
+        height: 5rem;
+        width: 100%;
+        margin-top: 0.8rem;
+        position: relative;
+        right: 0.4rem;
+        bottom: 4.8rem;
+
+    }
+
+    .box4,
+    .box6 {
+        display: none;
+    }
+
+    .types1 {
+        font-size: 0.55rem;
+        position: relative;
+        left: 0.43rem;
+        top: 3.5rem;
+    }
+
+    .types2 {
+        font-size: 0.6rem;
+        position: relative;
+        left: 0.43rem;
+        top: 5rem;
+    }
+
+    .box p a {
+        font-size: 0.7rem;
+    }
+
+    .shopi {
+
+        position: relative;
+        bottom: 3.8rem;
+    }
+
+    .shopii {
+
+        position: relative;
+        top: 2.3rem;
+    }
+
+    .shopiii {
+
+        position: relative;
+        top: 2.63rem;
+    }
+
+    .shopiv {
+
+        position: relative;
+        top: 3rem;
+    }
+
+    .shopv {
+
+        position: relative;
+        bottom: 1rem;
+    }
+
+    .shopvi {
+
+        position: relative;
+        bottom: 1rem;
+    }
+
+    .div1 {
+        display: none;
+    }
+
+    .div2 {
+        display: none;
+    }
+
+    .footersec1 {
+        font-size: 0.7rem;
+    }
+
+    .footersec1:hover {
+        background-color: #50546c;
+    }
+
+    ul a {
+        font-size: 0.7rem;
+        width: 95%;
+        position: relative;
+        right: 1rem;
+    }
+
+    ul p {
+        font-size: 0.8rem;
+        position: relative;
+        right: 1rem;
+    }
+
+    .logo2 {
+        height: 2.125rem;
+        width: 5.25rem;
+    }
+}
+
+@media (min-width: 736px) and (max-width: 1200px) {
     .logo1 {
         width: 6.4rem;
         height: 4rem;
@@ -859,14 +1245,37 @@ ul p {
         margin-left: 0.1rem;
     }
 
-    .hero {
-        background-image: url("hero.jpg");
-        background-size: cover;
-        height: 14rem;
+    .slides {
         width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
+        height: 18.75rem;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .slide {
+        width: 100%;
+        position: absolute;
+    }
+
+    /* CSS for previous and next buttons */
+    .prev-btn {
+        position: absolute;
+        left: 2rem;
+        top: 15rem;
+        cursor: pointer;
+        /* Add additional styles for positioning the buttons as needed */
+    }
+
+    .next-btn {
+        position: absolute;
+        right: 2rem;
+        top: 15rem;
+        cursor: pointer;
+        /* Add additional styles for positioning the buttons as needed */
+    }
+
+    .hero {
+        height: 300px;
     }
 
     .heromessage {
@@ -877,7 +1286,7 @@ ul p {
     }
 
     .navsearch {
-        width: 19rem;
+        width: 35rem;
         height: 2rem;
     }
 
@@ -928,8 +1337,8 @@ ul p {
     }
 
     .image6 {
-        height: 14rem;
-        width: 14.0625rem;
+        height: 10rem;
+        width: 100%;
         margin-top: 0.8rem;
         margin-bottom: 0.8rem;
         position: relative;
@@ -960,7 +1369,7 @@ ul p {
 
     .image8 {
         height: 10rem;
-        width: 100%;
+        width: 100px;
         position: relative;
         right: 0.4rem;
     }
@@ -971,7 +1380,7 @@ ul p {
         margin-top: 0.8rem;
         position: relative;
         right: 0.4rem;
-        bottom: 4.8rem;
+        bottom: 4rem;
 
     }
 
@@ -984,14 +1393,14 @@ ul p {
         font-size: 0.55rem;
         position: relative;
         left: 0.43rem;
-        top: 3.5rem;
+        top: 4rem;
     }
 
     .types2 {
         font-size: 0.6rem;
         position: relative;
         left: 0.43rem;
-        top: 5rem;
+        top: 5.9rem;
     }
 
     .box p a {
@@ -1007,13 +1416,13 @@ ul p {
     .shopii {
 
         position: relative;
-        top: 2.3rem;
+        top: 2.6rem;
     }
 
     .shopiii {
 
         position: relative;
-        top: 2.63rem;
+        top: 4rem;
     }
 
     .shopiv {
