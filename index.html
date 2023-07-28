@@ -12,75 +12,93 @@
 </head>
 
 <body>
-    <header>
-        <div class="navbar">
-            <div class="navlogo ">
-                <div class="logo1 border"></div>
-            </div>
+    <section id="backtotop">
+        <header>
+            <div class="navbar">
+                <div class="navlogo ">
+                    <div class="logo1 border"></div>
+                </div>
 
-            <div class="navlocation border">
-                <p class="loc1">Deliver to</p>
-                <div class="locicon">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <p class="loc2">India</p>
+                <div class="navlocation border">
+                    <p class="loc1">Deliver to</p>
+                    <div class="locicon">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="loc2">India</p>
+                    </div>
+                </div>
+
+                <div class="navsearch">
+                    <select class="search">
+                        <option>All</option>
+                    </select>
+                    <input class="searchinput" placeholder="Search Amazon">
+                    <div class="searchicon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                </div>
+
+                <div class="language border">
+                    <p class="nav-second">
+                        <img class="flagimg" src="united-states_206626.png" alt="" />EN
+                        <i class="fa-solid fa-caret-down fa-xs"></i>
+
+                    </p>
+                </div>
+
+
+                <div class="navsignin border">
+                    <div class="signin">
+                        <p><span>Hello, sign in</span></p>
+                    </div>
+                    <div class="signin">
+                        <p class="nav-second">Accounts and Lists
+                            <i class="fa-solid fa-caret-down fa-xs"></i>
+                    </div>
+                    </p>
+                </div>
+
+                <div class="navreturn border">
+                    <p><span>Returns</span></p>
+                    <p class="nav-second">& Orders</p>
+                </div>
+
+                <div class="navcart border">
+                    <p class="nav-third">
+                        <i class="fa-solid fa-cart-shopping hello"></i>
+                    <p class="cart cart">Cart</p>
+                    </p>
                 </div>
             </div>
 
-            <div class="navsearch">
-                <select class="search">
-                    <option>All</option>
-                </select>
-                <input class="searchinput" placeholder="Search Amazon">
-                <div class="searchicon"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <div class="panel">
+                <div class="panel1 border">
+                    <p class="nav-second">
+                        <i class="fa-solid fa-bars fa-lg"></i>
+                        All
+                    </p>
+                </div>
+                <div class="options ">
+                    <p class="border">Today's Deals</p>
+                    <p class="border">Customer service</p>
+                    <p class="border">Registry</p>
+                    <p class="border">Gift Cards</p>
+                    <p class="border">Sell</p>
+                </div>
             </div>
-
-            <div class="language border">
-                <p class="nav-second">
-                    <img class="flagimg" src="united-states_206626.png" alt="" />EN
-                    <i class="fa-solid fa-caret-down fa-xs"></i>
-
-                </p>
             </div>
+        </header>
+    </section>
 
-
-            <div class="navsignin border">
-                <div class="signin"><p><span>Hello, sign in</span></p></div>
-                <div class="signin"><p class="nav-second">Accounts and Lists
-                    <i class="fa-solid fa-caret-down fa-xs"></i></div>
-                </p>
-            </div>
-
-            <div class="navreturn border">
-                <p><span>Returns</span></p>
-                <p class="nav-second">& Orders</p>
-            </div>
-
-            <div class="navcart border">
-                <p class="nav-third">
-                    <i class="fa-solid fa-cart-shopping hello"></i>
-                    <p class="cart cart">Cart</p>
-                </p>
-            </div>
-        </div>
-
-        <div class="panel">
-            <div class="panel1 border">
-                <p class="nav-second">
-                    <i class="fa-solid fa-bars fa-lg"></i>
-                    All
-                </p>
-            </div>
-            <div class="options ">
-                <p class="border">Today's Deals</p>
-                <p class="border">Customer service</p>
-                <p class="border">Registry</p>
-                <p class="border">Gift Cards</p>
-                <p class="border">Sell</p>
-            </div>
-        </div>
-        </div>
-    </header>
     <div class="hero">
+        <div class="slides">
+            <img class="slide" src="https://m.media-amazon.com/images/I/61lwJy4B8PL._SX3000_.jpg">
+            <img class="slide" src="https://m.media-amazon.com/images/I/71Ie3JXGfVL._SX3000_.jpg">
+            <img class="slide" src="https://m.media-amazon.com/images/I/71U-Q+N7PXL._SX3000_.jpg">
+            <img class="slide" src="https://m.media-amazon.com/images/I/81KkrQWEHIL._SX3000_.jpg">
+            <img class="slide" src="https://m.media-amazon.com/images/I/61zAjw4bqPL._SX3000_.jpg">
+        </div>
+        <div class="prev-btn" id="prevbtn"><i class="fa-solid fa-angle-left fa-2xl" style="color: #2a2727; "></i>
+        </div>
+        <div class="next-btn" id="nextbtn"><i class="fa-solid fa-chevron-right fa-2xl" style="color: #1b1c1d;"></i>
+        </div>
         <div class="heromessage">
             <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local
                 delivery. <a>Click here to go to amazon.in</a></p>
@@ -208,8 +226,12 @@
         </div>
     </div>
     <footer>
-        <div class="footersec1">
-            <p>Back to top</p>
+        <div class="gototopsec">
+            <a href="#backtotop">
+                <div class="footersec1">
+                    <p>Back to top</p>
+                </div>
+            </a>
         </div>
 
         <div class="footersec2">
@@ -267,6 +289,8 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
+
 </body>
 
 </html>
